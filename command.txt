@@ -1,0 +1,13 @@
+tailwindcss Command
+==================
+
+1. npm inti -y
+2. npm install tailwindcss postcss-cli autoprefixer
+3. npx tailwindcss init
+4. Package.json => 
+
+    "scripts": {
+        "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    },
+
+5. npm install -g live-server
